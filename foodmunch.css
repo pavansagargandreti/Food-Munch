@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+
+
+
+
+/* This code ONLY runs on mobile and tablet screens */
+@media (max-width: 991px) {
+  
+  /* Make the entire navbar taller on mobile */
+  .navbar {
+    padding: 15px 20px !important; 
+  }
+
+  /* Make your "Food Munch" logo larger on mobile */
+  .navbar-brand img {
+    height: 50px !important; 
+    width: auto;
+  }
+
+  /* Make the hamburger menu button larger on mobile */
+  .navbar-toggler {
+    padding: 8px 12px !important;
+  }
+  
+  /* Make the dropdown links larger and spaced out on mobile */
+  .navbar-nav .nav-link {
+    font-size: 1.2rem !important;     
+    padding-top: 12px !important;      
+    padding-bottom: 12px !important;
+  }
+}
+
+
+
+
+
+
+
 .food-munch-logo{
     height: 70px;
     width: 70px;

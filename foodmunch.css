@@ -32,7 +32,10 @@
 }
 
 
-
+html {
+    scroll-behavior: smooth; /* Makes the transition look nice instead of an instant jump */
+    scroll-padding-top: 110px; /* Adjust this number to match the actual height of your navbar */
+}
 
 
 
@@ -188,7 +191,7 @@
   margin-right: 28px;
 }
 .thanking-section{
-    background-color: #d0b2001a;
+  background-image: radial-gradient(#fff8db, #fae38c);
 }
 .thanking-section-heading{
   color: #183b56;
@@ -207,6 +210,10 @@
   width: 270px;
   margin-bottom: 20px;
 
+}
+.thanking-section-modal-title{
+  color: #d0b200;
+  font-weight: 800;
 }
 
 .follow-us-section {
@@ -252,80 +259,3 @@
   font-family: "Roboto";
   font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

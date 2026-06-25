@@ -11,9 +11,9 @@
         
     </head>
 
-    <body>
+    <body id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-white pl-3 fixed-top">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#home">
                 <img
                     src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
                     class="food-munch-logo ml-3"
@@ -24,10 +24,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto mr-3">
-                <a class="nav-link" id="navid1" href="#">Why Choose Us?</a>
-                <a class="nav-link" id="navid2" href="#">Explore Menu</a>
-                <a class="nav-link" id="navid3" href="#">Delivery & Payment</a>
-                <a class="nav-link" id="navid4" href="#">Follow Us</a>
+                <a class="nav-link" id="navid1" href="#WCUsection">Why Choose Us?</a>
+                <a class="nav-link" id="navid2" href="#ExploreMenuSection">Explore Menu</a>
+                <a class="nav-link" id="navid3" href="#deliveryPaymentSection">Delivery & Payment</a>
+                <a class="nav-link" id="navid4" href="#followUsSection">Follow Us</a>
                 </div>
             </div>
         </nav>
@@ -47,7 +47,7 @@
                 </button>
             </div>
         </div>
-        <div class="wcu-section pb-5 pt-5 pl-1 pr-1">
+        <div class="wcu-section pb-5 pt-5 pl-1 pr-1" id="WCUsection">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div class="explore-menu-section pt-5 pb-5">
+        <div class="explore-menu-section pt-5 pb-5" id="ExploreMenuSection">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -269,9 +269,31 @@
 
                         </div>
                         <div>
-                            <button class="custom-button">
-                                Redeem Gift
+                                        <!-- Button trigger modal -->
+                            <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
                             </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="thanking-section-modal-title" id="exampleModalLabel">Gift Voucher</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png"
+                                             class="w-100">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 d-none d-md-block">
@@ -280,7 +302,7 @@
                 </div>
             </div>
         </div>
-        <div class="follow-us-section pt-5 pb-5">
+        <div class="follow-us-section pt-5 pb-5" id="followUsSection">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
